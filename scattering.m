@@ -106,7 +106,7 @@ zlabel('Pressure Amplitude')
 title("Empirical Dipole contribution ")
 
 nexttile
-h2 = surf(X,Y,p_dipole-0.3*p_monopole);
+h2 = surf(X,Y,p_tot);
 set(h2,'LineStyle','none')
 xlabel('X')
 ylabel('Y')
@@ -114,6 +114,4 @@ zlabel('Pressure Amplitude')
 title("Empirical Approximation of the scattered wave")
 colormap autumn
 title(tcl2,"Empirical solution ka = " + k*a + " in " + medium)
-
-
 
