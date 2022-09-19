@@ -77,7 +77,7 @@ ylabel('Y')
 zlabel('Pressure Amplitude')
 title("Approximation of the scattered wave")
 colormap autumn
-title(tcl,"Analytic solution Rayleigh ka = " + k*a + " in " + medium)
+title(tcl,"Analytic solution Spherical Harmonics ka = " + k*a + " in " + medium)
 
 
 
